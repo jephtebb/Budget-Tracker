@@ -2,12 +2,12 @@
 console.log('This is your service-worker.js file!');
 
 const FILES_TO_CACHE = [
-    `/db.js`,
+    `/public/js/db.js`,
     `/index.html`,
     `/index.js`,
     `/index.css`,
-    `/manifest.webmanifest`,
-    `/img/icons/money.png`
+    `/manifest.json`,
+    
 ];
 
 const STATIC_CACHE = `static-cache-v1`;
